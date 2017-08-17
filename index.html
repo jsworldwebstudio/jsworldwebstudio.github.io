@@ -70,10 +70,16 @@
     .div-height {
       height: 440px;
     }
-    @media (max-screen: 900px) {
+    @media (max-width: 900px) {
       .fa {
         font-size: 20px;
         padding: 10px;
+      }
+    }
+    @media (max-width: 767px) {
+      .div-height {
+        height: 440px;
+        overflow-y: scroll;
       }
     }
     @media (max-width: 600px) {
