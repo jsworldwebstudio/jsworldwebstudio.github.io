@@ -33,6 +33,57 @@
     .navbar-header button, .navbar-header button:hover {
       background-color: #5E4485;
     }
+    .carousel-caption {
+      top: 50%;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+    }
+    .btn {
+      font-size: 18px;
+      color: #FFF;
+      padding: 12px 22px;
+      background: #5E4485;
+      border: 2px solid #FFF;
+    }
+    .container {
+      margin: 4% auto;
+    }
+    #icon {
+      max-width: 200px;
+      margin: 1% auto;
+    }
+    footer {
+      width: 100%;
+      background-color: #5E4485;
+      padding: 5%;
+      color: #FFF;
+    }
+    .fa {
+      padding: 15px;
+      font-size: 25px;
+      color: #FFF;
+    }
+    .fa:hover {
+      color: #D5D5D5;
+      text-decoration: none;
+    }
+    @media (max-screen: 900px) {
+      .fa {
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+      }
+      #icon {
+        max-width: 150px;
+      }
+      h2 {
+        font-size: 1.7em;
+      }
+    }
 
   </style>
 </head>
@@ -92,11 +143,87 @@
 </a>
   </div>    <!-- End Slider -->
 
+  <div class="container text-center">
+    <h2>What We're Using</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img/html5.png" alt="" id="icon">
+        <h4>HTML5</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/bootstrap.png" alt="" id="icon">
+        <h4>Bootstrap</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/css3.png" alt="" id="icon">
+        <h4>CSS3</h4>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
-    <h1>This is a test with Bootstrap</h1>
-    <h2>Still connected?</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Here's the cool thing about Bootstrap...</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor bibendum fringilla. Suspendisse sollicitudin mauris nec dolor luctus, non vestibulum libero porta. Fusce in fringilla eros. Duis diam sem, laoreet non sapien quis, tempus fringilla quam. Nulla dictum ornare nulla. Phasellus convallis enim a orci pellentesque tempus. Nulla sagittis bibendum felis, vitae dictum mi dapibus id. Proin imperdiet vel leo et pharetra. Ut lacinia laoreet ex eu molestie. Donec vitae tempus diam. Maecenas pulvinar nibh eu imperdiet interdum. Duis eu ante ligula. In a luctus nunc. Maecenas accumsan massa eget imperdiet tempor. Phasellus id enim quis mi interdum viverra. Vestibulum et risus sodales, faucibus ligula ac, euismod ante.</p>
+        <p>Curabitur bibendum faucibus accumsan. Donec fermentum a ipsum tincidunt viverra. Aliquam id tellus non ipsum iaculis tempor nec ornare nunc. Donec id pellentesque quam. Maecenas sed metus eros. Donec accumsan porttitor lectus bibendum consequat. Nullam nec nibh maximus, condimentum massa in, elementum tellus. Maecenas ut nunc id augue viverra pulvinar et at metus. Donec posuere non sapien a efficitur. Proin a euismod eros. Quisque efficitur aliquet nisl rutrum lacinia.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/bootstrap2.jpg" class="img-responsive" alt="">
+      </div>
+    </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-1">
+        <h4>Built with Sass</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor bibendum fringilla. Suspendisse sollicitudin mauris nec dolor luctus, non vestibulum libero porta. Fusce in fringilla eros. Duis diam sem, laoreet non sapien quis, tempus fringilla quam. Nulla dictum ornare nulla. Phasellus convallis enim a orci pellentesque tempus. Nulla sagittis bibendum felis, vitae dictum mi dapibus id. Proin imperdiet vel leo et pharetra. Ut lacinia laoreet ex eu molestie. Donec vitae tempus diam. Maecenas pulvinar nibh eu imperdiet interdum. Duis eu ante ligula. In a luctus nunc. Maecenas accumsan massa eget imperdiet tempor. Phasellus id enim quis mi interdum viverra. Vestibulum et risus sodales, faucibus ligula ac, euismod ante.</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-1">
+        <img src="img/sass.png" class="img-responsive" alt="">
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-1">
+        <h4>And Less</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor bibendum fringilla. Suspendisse sollicitudin mauris nec dolor luctus, non vestibulum libero porta. Fusce in fringilla eros. Duis diam sem, laoreet non sapien quis, tempus fringilla quam. Nulla dictum ornare nulla. Phasellus convallis enim a orci pellentesque tempus. Nulla sagittis bibendum felis, vitae dictum mi dapibus id. Proin imperdiet vel leo et pharetra. Ut lacinia laoreet ex eu molestie. Donec vitae tempus diam. Maecenas pulvinar nibh eu imperdiet interdum. Duis eu ante ligula. In a luctus nunc. Maecenas accumsan massa eget imperdiet tempor. Phasellus id enim quis mi interdum viverra. Vestibulum et risus sodales, faucibus ligula ac, euismod ante.</p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-1">
+        <img src="img/less.png" class="img-responsive" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h4><a href="#hidden" data-toggle="collapse">Care to learn more about Bootstrap?</a></h4>
+      <div id="hidden" class="collapse">
+        <h4>Here's the cool thing about Bootstrap...</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porttitor bibendum fringilla. Suspendisse sollicitudin mauris nec dolor luctus, non vestibulum libero porta. Fusce in fringilla eros. Duis diam sem, laoreet non sapien quis, tempus fringilla quam. Nulla dictum ornare nulla. Phasellus convallis enim a orci pellentesque tempus. Nulla sagittis bibendum felis, vitae dictum mi dapibus id. Proin imperdiet vel leo et pharetra. Ut lacinia laoreet ex eu molestie. Donec vitae tempus diam. Maecenas pulvinar nibh eu imperdiet interdum. Duis eu ante ligula. In a luctus nunc. Maecenas accumsan massa eget imperdiet tempor. Phasellus id enim quis mi interdum viverra. Vestibulum et risus sodales, faucibus ligula ac, euismod ante.</p>
+        <p>Curabitur bibendum faucibus accumsan. Donec fermentum a ipsum tincidunt viverra. Aliquam id tellus non ipsum iaculis tempor nec ornare nunc. Donec id pellentesque quam. Maecenas sed metus eros. Donec accumsan porttitor lectus bibendum consequat. Nullam nec nibh maximus, condimentum massa in, elementum tellus. Maecenas ut nunc id augue viverra pulvinar et at metus. Donec posuere non sapien a efficitur. Proin a euismod eros. Quisque efficitur aliquet nisl rutrum lacinia.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <br>
+        <h4>Our Address and contact info here</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect with Us</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/bunny.png" class="icon" alt="">
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
