@@ -1,4 +1,4 @@
-webpackJsonp([2],{
+webpackJsonp(["styles"],{
 
 /***/ "../../../../../src/assets/images/home-slider-1.jpg":
 /***/ (function(module, exports, __webpack_require__) {
@@ -27,17 +27,17 @@ module.exports = __webpack_require__.p + "home-slider-4c.145433272176292d2100.pn
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../../src/styles.css");
+var content = __webpack_require__("../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../../src/styles.css");
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__("../../../../style-loader/addStyles.js")(content, {});
+var update = __webpack_require__("../../node_modules/style-loader/addStyles.js")(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js??ref--8-1!../node_modules/postcss-loader/index.js??postcss!./styles.css", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js??ref--8-1!../node_modules/postcss-loader/index.js??postcss!./styles.css");
+		module.hot.accept("!!../node_modules/@angular/cli/node_modules/css-loader/index.js??ref--8-1!../node_modules/@angular/cli/node_modules/postcss-loader/index.js??postcss!./styles.css", function() {
+			var newContent = require("!!../node_modules/@angular/cli/node_modules/css-loader/index.js??ref--8-1!../node_modules/@angular/cli/node_modules/postcss-loader/index.js??postcss!./styles.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -54,17 +54,17 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../bootstrap/dist/css/bootstrap.min.css");
+var content = __webpack_require__("../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../bootstrap/dist/css/bootstrap.min.css");
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__("../../../../style-loader/addStyles.js")(content, {});
+var update = __webpack_require__("../../node_modules/style-loader/addStyles.js")(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../css-loader/index.js??ref--8-1!../../../postcss-loader/index.js??postcss!./bootstrap.min.css", function() {
-			var newContent = require("!!../../../css-loader/index.js??ref--8-1!../../../postcss-loader/index.js??postcss!./bootstrap.min.css");
+		module.hot.accept("!!../../../@angular/cli/node_modules/css-loader/index.js??ref--8-1!../../../@angular/cli/node_modules/postcss-loader/index.js??postcss!./bootstrap.min.css", function() {
+			var newContent = require("!!../../../@angular/cli/node_modules/css-loader/index.js??ref--8-1!../../../@angular/cli/node_modules/postcss-loader/index.js??postcss!./bootstrap.min.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -75,25 +75,94 @@ if(false) {
 
 /***/ }),
 
-/***/ "../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../../src/styles.css":
+/***/ "../../../../font-awesome/css/font-awesome.min.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../font-awesome/css/font-awesome.min.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__("../../node_modules/style-loader/addStyles.js")(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../@angular/cli/node_modules/css-loader/index.js??ref--8-1!../../@angular/cli/node_modules/postcss-loader/index.js??postcss!./font-awesome.min.css", function() {
+			var newContent = require("!!../../@angular/cli/node_modules/css-loader/index.js??ref--8-1!../../@angular/cli/node_modules/postcss-loader/index.js??postcss!./font-awesome.min.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "../../../../font-awesome/fonts/fontawesome-webfont.eot":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fontawesome-webfont.674f50d287a8c48dc19b.eot";
+
+/***/ }),
+
+/***/ "../../../../font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fontawesome-webfont.674f50d287a8c48dc19b.eot";
+
+/***/ }),
+
+/***/ "../../../../font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fontawesome-webfont.912ec66d7572ff821749.svg";
+
+/***/ }),
+
+/***/ "../../../../font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fontawesome-webfont.b06871f281fee6b241d6.ttf";
+
+/***/ }),
+
+/***/ "../../../../font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fontawesome-webfont.af7ae505a9eed503f8b8.woff2";
+
+/***/ }),
+
+/***/ "../../../../font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "fontawesome-webfont.fee66e712a8a08eef580.woff";
+
+/***/ }),
+
+/***/ "../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../../src/styles.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\ninput[type=\"submit\"] {\n    cursor: pointer;\n}\n.bg-dark {\n    background-color: #d73930 !important;\n}\n.btn-danger {\n    background-color: #d73930 !important;\n    border-color: #d73930 !important;\n}\nbody {\n    font-family: \"Prata\", serif;\n    font-weight: 300;\n    font-size: 14px;\n    line-height: 1.6;\n    color: #616370;\n    background: #26272c;\n    height: 100%;\n    position: relative;\n}\nh1, h2, h3, h4, h5, h6 {\n    color: #fff;\n    font-family: \"Open Sans\", Arial, sans-serif;\n    font-weight: 400;\n    margin: 0 0 30px 0;\n}\np {\n    margin: 0 0 10px 0;\n}\np {\n    margin-bottom: 1.5em;\n}\n.lead {\n    font-size: 18px;\n}\n.list-nav {\n    margin: 30px 0 30px 0;\n    padding: 0;\n}\n.list-nav li {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    font-size: 14px;\n    padding-left: 30px;\n    margin-bottom: 10px;\n    position: relative;\n}\n.list-nav li i {\n    position: absolute;\n    left: 0;\n    top: 0;\n    font-size: 18px;\n    color: #eb212e;\n}\n.icon-check2:before {\n    font-family: FontAwesome;\n    content: \"\\F00C\";\n}\n#about-page, #services-page, #fun-page, #movie-detail-page, #contact-page {\n    padding: 4em 0;\n    min-height: 605px;\n}\n#nav-component .navbar-brand,\n#footer-component .navbar-brand {\n    float: left;\n    display: block;\n    font-size: 24px;\n    font-weight: 700;\n    padding-left: 0;\n    color: #fff;\n    text-transform: uppercase;\n    font-family: \"Open Sans\", Arial, sans-serif;\n}\n#nav-component #navbarCollapse li a {\n    font-family: \"Open Sans\", Arial, sans-serif;\n    /*color: rgba(255, 255, 255, 0.5);*/\n    font-size: 16px;\n    font-weight: 400;\n}\n#about-page .container .img-assets-pull-1 {\n    right: 8.33333%;\n}\n#footer-component .container {\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n#footer-component .container, #footer-component a {\n    color: #fff;\n}\n#footer-component .container li a:hover {\n    /*color: #fff;*/\n    text-decoration: none;\n}\n#footer-component .container small {\n    margin-left: 30px;\n    padding-top: 5px;\n    /*display: block;*/\n}\n/*               */\n/* SERVICES PAGE */\n/*               */\n#services-page .services-left-margin {\n    margin-left: 16.66667%;\n}\n#services-page .call-to-action .btn-learn {\n    padding: 12px 30px;\n    background: #eb212e;\n    color: #fff;\n}\n.animated {\n    -webkit-animation-duration: 1s;\n    animation-duration: 1s;\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n}\n.text-center {\n    text-align: center;\n}\n.fadeInUp {\n    -webkit-animation-name: fadeInUp;\n    animation-name: fadeInUp;\n}\n.bounceIn {\n    -webkit-animation-name: bounceIn;\n    animation-name: bounceIn;\n}\nanimate-2, .js .to-animate-3, .js .single-animate {\n    opacity: 0;\n}\n.animated.bounceIn, .animated.bounceOut {\n    -webkit-animation-duration: .75s;\n    animation-duration: .75s;\n}\n.section-heading {\n    float: left;\n    width: 100%;\n    padding-bottom: 50px;\n    margin-bottom: 0px;\n    clear: both;\n}\n.section-heading h2 {\n    margin: 0 0 0 0;\n    font-size: 26px;\n    font-weight: 400;\n    color: #fff;\n    position: relative;\n    display: block;\n    padding-bottom: 10px;\n    line-height: 1.5;\n}\n.section-heading h3 {\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 1.8;\n    color: #555863;\n    position: relative;\n    display: block;\n    padding-bottom: 30px;\n    font-family: \"Prata\", serif;\n}\n.section-heading h3:after {\n    content: \"\";\n    position: absolute;\n    display: block;\n    width: 50px;\n    height: 2px;\n    background: #d73930;\n    left: 50%;\n    margin-left: -25px;\n    bottom: 0;\n}\n#services-page .box-services {\n    position: relative;\n    margin-bottom: 70px;\n}\n#services-page .box-services i {\n    position: absolute;\n    left: 0;\n    top: 0;\n    font-size: 38px;\n    color: #eb212e;\n}\n.icon-shield:before {\n    font-family: FontAwesome;\n    content: \"\\F132\";\n}\n#services-page .fh5co-post {\n    padding-left: 75px;\n}\n#services-page .fh5co-post h3 {\n    font-size: 18px;\n    margin-bottom: 15px;\n}\n/*               */\n/* CONTACT PAGE */\n/*               */\n.icon-map-marker:before {\n    font-family: FontAwesome;\n    content: \"\\F041\";\n}\n.icon-phone:before {\n    font-family: FontAwesome;\n    content: \"\\F095\";\n}\n.icon-envelope:before {\n    font-family: FontAwesome;\n    content: \"\\F0E0\";\n}\n.icon-globe2:before {\n    font-family: FontAwesome;\n    content: \"\\F0AC\";\n}\n.icon-facebook:before {\n    font-family: FontAwesome;\n    content: \"\\F09A\";\n}\n.icon-twitter:before {\n    font-family: FontAwesome;\n    content: \"\\F099\";\n}\n.icon-dribble:before {\n    font-family: FontAwesome;\n    content: \"\\F17D\";\n}\n.icon-github-alt:before {\n    font-family: FontAwesome;\n    content: \"\\F113\";\n}\n#contact-page a {\n    color: #74889e;\n}\n#contact-page .section-title {\n    font-size: 22px;\n    color: #fff;\n    position: relative;\n    padding-bottom: 20px;\n}\n#contact-page .section-title:after {\n    position: absolute;\n    content: '';\n    bottom: 0;\n    left: 0;\n    display: block;\n    width: 35px;\n    height: 2px;\n    background: #d73930;\n}\n#contact-page .copy-right {\n    position: relative;\n    padding-top: 20px;\n    margin-top: 40px;\n}\n#contact-page .copy-right > a {\n    color: #d73930;\n}\n#contact-page .contact-info {\n    margin: 0 0 60px 0;\n    padding: 0;\n}\n#contact-page .social-media {\n    margin: 0 0 30px 0;\n    padding: 0;\n}\n#contact-page .social-media li {\n    display: inline-block;\n    margin: 0;\n    padding: 0;\n    font-size: 24px;\n    margin-right: 10px;\n}\n#contact-page .social-media li a {\n    color: #d73930;\n}\n#contact-page .social-media li a:hover {\n    color: #fff;\n    text-decoration: none;\n}\n#contact-page .contact-info li {\n    font-size: 16px;\n    list-style: none;\n    margin: 0 0 20px 0;\n    position: relative;\n    padding-left: 40px;\n}\n#contact-page .contact-info li i {\n    position: absolute;\n    top: 0;\n    left: 0;\n    font-size: 20px;\n    color: #d73930;\n    color: #555863;\n}\n#contact-page .contact-info li a {\n    color: #d73930;\n}\n#contact-page .contact-info li a:hover, #contact-page .copy-right a:hover {\n    color: #fff;\n}\n.form-group {\n    margin-bottom: 15px;\n}\nlabel {\n    display: inline-block;\n    max-width: 100%;\n    margin-bottom: 5px;\n    font-weight: bold;\n}\n.sr-only {\n    position: absolute;\n    width: 1px;\n    height: 1px;\n    margin: -1px;\n    padding: 0;\n    overflow: hidden;\n    clip: rect(0, 0, 0, 0);\n    border: 0;\n}\n.form-control {\n    display: block;\n    width: 100%;\n    height: 42px;\n    padding: 10px 20px;\n    font-size: 16px;\n    line-height: 1.42857;\n    color: #555555;\n    background-color: #fff;\n    background-image: none;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n}\ntextarea.form-control {\n    height: auto;\n}\n#contact-page .contact-form .form-group input {\n    color: #fff;\n    background: transparent;\n    border: none;\n    background: #485b71;\n    background: #3e3f47;\n    box-shadow: none;\n}\n#contact-page .contact-form .form-group textarea {\n    color: #fff;\n    background: transparent;\n    border: none;\n    background: #3e3f47;\n    box-shadow: none;\n}\n#contact-page #btn-submit {\n    color: rgba(255, 255, 255, 0.9) !important;\n    background: #d73930 !important;\n}\n\n#contact-page .contact-form .form-group input[type=\"name\"], #contact-page .contact-form .form-group input[type=\"text\"], #contact-page .contact-form .form-group input[type=\"email\"], #contact-page .contact-form .form-group textarea, #contact-page p {\n    font-size: 16px;\n}\n@-webkit-keyframes fadeInUp {\n    0% {\n        opacity: 0;\n        -webkit-transform: translate3d(0, 50px, 0);\n        transform: translate3d(0, 50px, 0);\n    }\n    100% {\n        opacity: 1;\n        -webkit-transform: none;\n        transform: none;\n    }\n}\n@keyframes fadeInUp {\n    0% {\n        opacity: 0;\n        -webkit-transform: translate3d(0, 50px, 0);\n        transform: translate3d(0, 50px, 0);\n    }\n    100% {\n        opacity: 1;\n        -webkit-transform: none;\n        transform: none;\n    }\n}\n@-webkit-keyframes bounceIn {\n    0%, 20%, 40%, 60%, 80%, 100% {\n        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n    }\n}\n@keyframes bounceIn {\n    0%, 20%, 40%, 60%, 80%, 100% {\n        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n    }\n}\n/*               */\n/* FUN   PAGE    */\n/*               */\n.icon-search:before {\n    font-family: FontAwesome;\n    content: \"\\F002\";\n    color: #fff;\n}\n#fun-page .jumbotron {\n    background-color: #26272c;\n    color: #fff;\n    padding-top: 0;\n    padding-left: 0;\n    margin-bottom: 0;\n}\n#fun-page p {\n    font-size: 18px;\n    color: #616370;\n}\n#fun-page .form-inline {\n    margin-bottom: 30px;\n}\n#fun-page .form-inline input:focus{\n    outline: none;\n    text-decoration: none;\n    box-shadow: none;\n}\n#fun-page .card {\n    width: 195px;\n}\n#fun-page .card-title {\n    color: #26272c;\n    height: 80px;\n\n}\n#fun-page img {\n    width: 100%;\n    height: 290px;\n}\n#fun-page h5, #fun-page h6 {\n    color: #26272c;\n}\n#fun-page h6 {\n    margin-bottom: 0;\n}\n/*                    */\n/* MOVIE DETAIL PAGE  */\n/*                    */\n#movie-detail-page .list-group-item {\n    background-color: #26272c;\n    font-size: 16px;\n}\n/*                    */\n/* HOME PAGE          */\n/*                    */\n#home-page .carousel-inner .carousel-item .carousel-caption {\n    margin-bottom: 180px;\n}\n.carousel-item {\n    height: 605px;\n}\n.carousel-image-1 {\n    background: url(" + __webpack_require__("../../../../../src/assets/images/home-slider-1.jpg") + ");\n    background-size: cover;\n}\n.carousel-image-2 {\n    background: url(" + __webpack_require__("../../../../../src/assets/images/home-slider-2.jpg") + ");\n    background-size: cover;\n}\n.carousel-image-3 {\n    background: url(" + __webpack_require__("../../../../../src/assets/images/home-slider-4c.png") + ");\n    background-size: cover;\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\ninput[type=\"submit\"] {\n    cursor: pointer;\n}\n.bg-dark {\n    background-color: #d73930 !important;\n}\n.btn-danger {\n    background-color: #d73930 !important;\n    border-color: #d73930 !important;\n}\nbody {\n    font-family: \"Prata\", serif;\n    font-weight: 300;\n    font-size: 14px;\n    line-height: 1.6;\n    color: #616370;\n    background: #26272c;\n    height: 100%;\n    position: relative;\n}\nh1, h2, h3, h4, h5, h6 {\n    color: #fff;\n    font-family: \"Open Sans\", Arial, sans-serif;\n    font-weight: 400;\n    margin: 0 0 30px 0;\n}\np {\n    margin: 0 0 10px 0;\n}\np {\n    margin-bottom: 1.5em;\n}\np.short-text {\n    margin-bottom: 6.5em;\n}\n.lead {\n    font-size: 18px;\n}\n.list-nav {\n    margin: 30px 0 30px 0;\n    padding: 0;\n}\n.list-nav li {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    font-size: 14px;\n    padding-left: 30px;\n    margin-bottom: 10px;\n    position: relative;\n}\n.list-nav li i {\n    position: absolute;\n    left: 0;\n    top: 0;\n    font-size: 18px;\n    color: #eb212e;\n}\n.icon-check2:before {\n    font-family: FontAwesome;\n    content: \"\\F00C\";\n}\n#about-page, #services-page, #fun-page, #movie-detail-page, #contact-page {\n    padding: 4em 0;\n    min-height: 780px;\n}\n#nav-component .navbar-brand,\n#footer-component .navbar-brand {\n    float: left;\n    display: block;\n    font-size: 24px;\n    font-weight: 700;\n    padding-left: 0;\n    color: #fff;\n    text-transform: uppercase;\n    font-family: \"Open Sans\", Arial, sans-serif;\n}\n#nav-component #navbarCollapse li a {\n    font-family: \"Open Sans\", Arial, sans-serif;\n    /*color: rgba(255, 255, 255, 0.5);*/\n    font-size: 16px;\n    font-weight: 400;\n}\n#nav-component #navbarCollapse li a.active-link {\n    color: #fff;\n    text-decoration: underline;\n}\n#nav-component #navbarCollapse li a:hover {\n    /*color: #fff;*/\n    text-decoration: underline;\n}\n#about-page .container .img-assets-pull-1 {\n    right: 8.33333%;\n}\n#footer-component .container {\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n#footer-component .container, #footer-component a {\n    color: #fff;\n}\n#footer-component .container li a:hover {\n    /*color: #fff;*/\n    text-decoration: none;\n}\n#footer-component .container small {\n    margin-left: 30px;\n    padding-top: 5px;\n    /*display: block;*/\n}\n/*               */\n/* SERVICES PAGE */\n/*               */\n#services-page .services-left-margin {\n    margin-left: 16.66667%;\n}\n#services-page .call-to-action .btn-learn {\n    padding: 12px 30px;\n    background: #eb212e;\n    color: #fff;\n}\n.animated {\n    -webkit-animation-duration: 1s;\n    animation-duration: 1s;\n    -webkit-animation-fill-mode: both;\n    animation-fill-mode: both;\n}\n.text-center {\n    text-align: center;\n}\n.fadeInUp {\n    -webkit-animation-name: fadeInUp;\n    animation-name: fadeInUp;\n}\n.bounceIn {\n    -webkit-animation-name: bounceIn;\n    animation-name: bounceIn;\n}\nanimate-2, .js .to-animate-3, .js .single-animate {\n    opacity: 0;\n}\n.animated.bounceIn, .animated.bounceOut {\n    -webkit-animation-duration: .75s;\n    animation-duration: .75s;\n}\n.section-heading {\n    float: left;\n    width: 100%;\n    padding-bottom: 50px;\n    margin-bottom: 0px;\n    clear: both;\n}\n.section-heading h2 {\n    margin: 0 0 0 0;\n    font-size: 26px;\n    font-weight: 400;\n    color: #fff;\n    position: relative;\n    display: block;\n    padding-bottom: 10px;\n    line-height: 1.5;\n}\n.section-heading h3 {\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 1.8;\n    color: #555863;\n    position: relative;\n    display: block;\n    padding-bottom: 30px;  /* 30px */\n    /*margin-bottom: 0;*/\n    font-family: \"Prata\", serif;\n}\n.section-heading span.to-animate.line-dash {   /* .section-heading h3:after */\n    content: \"\";\n    position: absolute;\n    display: block;\n    width: 50px;\n    height: 2px;\n    background: #d73930;\n    left: 50%;\n    margin-left: -25px;\n    margin-bottom: 30px;    /* not here originally */\n    bottom: 0;\n}\n#services-page .box-services {\n    position: relative;\n    margin-bottom: 70px;\n}\n#services-page .box-services i {\n    position: absolute;\n    left: 0;\n    top: -12px;\n    font-size: 38px;\n    color: #eb212e;\n}\n.icon-shield:before {\n    font-family: FontAwesome;\n    content: \"\\F132\";\n}\n#services-page .fh5co-post {\n    padding-left: 75px;\n}\n#services-page .fh5co-post h3 {\n    font-size: 18px;\n    margin-bottom: 15px;\n}\n/*               */\n/* CONTACT PAGE */\n/*               */\n.icon-map-marker:before {\n    font-family: FontAwesome;\n    content: \"\\F041\";\n}\n.icon-phone:before {\n    font-family: FontAwesome;\n    content: \"\\F095\";\n}\n.icon-envelope:before {\n    font-family: FontAwesome;\n    content: \"\\F0E0\";\n}\n.icon-globe2:before {\n    font-family: FontAwesome;\n    content: \"\\F0AC\";\n}\n.icon-facebook:before {\n    font-family: FontAwesome;\n    content: \"\\F09A\";\n}\n.icon-twitter:before {\n    font-family: FontAwesome;\n    content: \"\\F099\";\n}\n.icon-dribble:before {\n    font-family: FontAwesome;\n    content: \"\\F17D\";\n}\n.icon-github-alt:before {\n    font-family: FontAwesome;\n    content: \"\\F113\";\n}\n#contact-page a {\n    color: #74889e;\n}\n#contact-page .section-title {\n    font-size: 22px;\n    color: #fff;\n    position: relative;\n    padding-bottom: 20px;\n}\n#contact-page .section-title:after {\n    position: absolute;\n    content: '';\n    bottom: 0;\n    left: 0;\n    display: block;\n    width: 35px;\n    height: 2px;\n    background: #d73930;\n}\n#contact-page .copy-right {\n    position: relative;\n    padding-top: 20px;\n    margin-top: 40px;\n}\n#contact-page .copy-right > a {\n    color: #d73930;\n}\n#contact-page .contact-info {\n    margin: 0 0 60px 0;\n    padding: 0;\n}\n#contact-page .social-media {\n    margin: 0 0 30px 0;\n    padding: 0;\n}\n#contact-page .social-media li {\n    display: inline-block;\n    margin: 0;\n    padding: 0;\n    font-size: 24px;\n    margin-right: 10px;\n}\n#contact-page .social-media li a {\n    color: #d73930;\n}\n#contact-page .social-media li a:hover {\n    color: #fff;\n    text-decoration: none;\n}\n#contact-page .contact-info li {\n    font-size: 16px;\n    list-style: none;\n    margin: 0 0 20px 0;\n    position: relative;\n    padding-left: 40px;\n}\n#contact-page .contact-info li i {\n    position: absolute;\n    top: 0;\n    left: 0;\n    font-size: 20px;\n    color: #d73930;\n    color: #555863;\n}\n#contact-page .contact-info li a {\n    color: #d73930;\n}\n#contact-page .contact-info li a:hover, #contact-page .copy-right a:hover {\n    color: #fff;\n}\n.form-group {\n    margin-bottom: 15px;\n}\nlabel {\n    display: inline-block;\n    max-width: 100%;\n    margin-bottom: 5px;\n    font-weight: bold;\n}\n.sr-only {\n    position: absolute;\n    width: 1px;\n    height: 1px;\n    margin: -1px;\n    padding: 0;\n    overflow: hidden;\n    clip: rect(0, 0, 0, 0);\n    border: 0;\n}\n.form-control {\n    display: block;\n    width: 100%;\n    height: 42px;\n    padding: 10px 20px;\n    font-size: 16px;\n    line-height: 1.42857;\n    color: #555555;\n    background-color: #fff;\n    background-image: none;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;\n}\ntextarea.form-control {\n    height: auto;\n}\n#contact-page .contact-form .form-group input {\n    color: #fff;\n    background: transparent;\n    border: none;\n    background: #485b71;\n    background: #3e3f47;\n    box-shadow: none;\n}\n#contact-page .contact-form .form-group textarea {\n    color: #fff;\n    background: transparent;\n    border: none;\n    background: #3e3f47;\n    box-shadow: none;\n}\n#contact-page #btn-submit {\n    color: rgba(255, 255, 255, 0.9) !important;\n    background: #d73930 !important;\n}\n\n#contact-page .contact-form .form-group input[type=\"name\"], #contact-page .contact-form .form-group input[type=\"text\"], #contact-page .contact-form .form-group input[type=\"email\"], #contact-page .contact-form .form-group textarea, #contact-page p {\n    font-size: 16px;\n}\n@-webkit-keyframes fadeInUp {\n    0% {\n        opacity: 0;\n        -webkit-transform: translate3d(0, 50px, 0);\n        transform: translate3d(0, 50px, 0);\n    }\n    100% {\n        opacity: 1;\n        -webkit-transform: none;\n        transform: none;\n    }\n}\n@keyframes fadeInUp {\n    0% {\n        opacity: 0;\n        -webkit-transform: translate3d(0, 50px, 0);\n        transform: translate3d(0, 50px, 0);\n    }\n    100% {\n        opacity: 1;\n        -webkit-transform: none;\n        transform: none;\n    }\n}\n@-webkit-keyframes bounceIn {\n    0%, 20%, 40%, 60%, 80%, 100% {\n        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n    }\n}\n@keyframes bounceIn {\n    0%, 20%, 40%, 60%, 80%, 100% {\n        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);\n    }\n}\n/*               */\n/* FUN   PAGE    */\n/*               */\n.icon-search:before {\n    font-family: FontAwesome;\n    content: \"\\F002\";\n    color: #fff;\n}\n#fun-page .jumbotron {\n    background-color: #26272c;\n    color: #fff;\n    padding-top: 0;\n    padding-left: 0;\n    margin-bottom: 0;\n}\n#fun-page p {\n    font-size: 18px;\n    color: #616370;\n}\n#fun-page .form-inline {\n    margin-bottom: 30px;\n}\n#fun-page .form-inline input:focus{\n    outline: none;\n    text-decoration: none;\n    box-shadow: none;\n}\n#fun-page .card {\n    width: 195px;\n}\n#fun-page .card-title {\n    color: #26272c;\n    height: 80px;\n    overflow-y: scroll;\n\n}\n#fun-page img {\n    width: 100%;\n    height: 290px;\n}\n#fun-page h5, #fun-page h6 {\n    color: #26272c;\n}\n#fun-page h6 {\n    margin-bottom: 0;\n}\n/*                    */\n/* MOVIE DETAIL PAGE  */\n/*                    */\n#movie-detail-page .list-group-item {\n    background-color: #26272c;\n    font-size: 16px;\n}\n/*                    */\n/* HOME PAGE          */\n/*                    */\n#home-page {\n    min-height: 780px;\n}\n#home-page .carousel-inner .carousel-item .carousel-caption {\n    margin-bottom: 180px;\n}\n.carousel-item {\n    height: 780px;\n}\n.carousel-indicators {\n    bottom: 100px;\n}\n.carousel-image-1 {\n    background: url(" + __webpack_require__("../../../../../src/assets/images/home-slider-1.jpg") + ");\n    background-size: cover;\n}\n.carousel-image-2 {\n    background: url(" + __webpack_require__("../../../../../src/assets/images/home-slider-2.jpg") + ");\n    background-size: cover;\n}\n.carousel-image-3 {\n    background: url(" + __webpack_require__("../../../../../src/assets/images/home-slider-4c.png") + ");\n    background-size: cover;\n}\n/* Extra Small devices (tablets or large size smart phone less than 34em) */ \n@media (max-width: 33.9em) {\n    #home-page .carousel-inner .carousel-item .carousel-caption {\n        margin-bottom: 60px;\n    }\n    .carousel-indicators {\n        bottom: 10px;\n    }\n    #home-page .display-3 {\n        font-size: 3.0rem;\n    }\n}\n/* Small devices (tablets or large size smart phone less than 48em) */ \n@media (max-width: 47.9em) {\n    #home-page .carousel-inner .carousel-item .carousel-caption {\n        margin-bottom: 60px;\n    }\n    .carousel-indicators {\n        bottom: 10px;\n    }\n    #home-page .display-3 {\n        font-size: 3.0rem;\n    }\n}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../bootstrap/dist/css/bootstrap.min.css":
+/***/ "../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../bootstrap/dist/css/bootstrap.min.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -105,10 +174,10 @@ exports.push([module.i, "/*!\n * Bootstrap v4.0.0-beta (https://getbootstrap.com
 
 /***/ }),
 
-/***/ "../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../font-awesome/css/font-awesome.min.css":
+/***/ "../../node_modules/css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../node_modules/postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../font-awesome/css/font-awesome.min.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -120,7 +189,7 @@ exports.push([module.i, "/*!\n *  Font Awesome 4.7.0 by @davegandy - http://font
 
 /***/ }),
 
-/***/ "../../../../css-loader/lib/css-base.js":
+/***/ "../../node_modules/css-loader/lib/css-base.js":
 /***/ (function(module, exports) {
 
 /*
@@ -203,76 +272,7 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "../../../../font-awesome/css/font-awesome.min.css":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../../font-awesome/css/font-awesome.min.css");
-if(typeof content === 'string') content = [[module.i, content, '']];
-// add the styles to the DOM
-var update = __webpack_require__("../../../../style-loader/addStyles.js")(content, {});
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../css-loader/index.js??ref--8-1!../../postcss-loader/index.js??postcss!./font-awesome.min.css", function() {
-			var newContent = require("!!../../css-loader/index.js??ref--8-1!../../postcss-loader/index.js??postcss!./font-awesome.min.css");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ "../../../../font-awesome/fonts/fontawesome-webfont.eot":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fontawesome-webfont.674f50d287a8c48dc19b.eot";
-
-/***/ }),
-
-/***/ "../../../../font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fontawesome-webfont.674f50d287a8c48dc19b.eot";
-
-/***/ }),
-
-/***/ "../../../../font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fontawesome-webfont.912ec66d7572ff821749.svg";
-
-/***/ }),
-
-/***/ "../../../../font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fontawesome-webfont.b06871f281fee6b241d6.ttf";
-
-/***/ }),
-
-/***/ "../../../../font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fontawesome-webfont.af7ae505a9eed503f8b8.woff2";
-
-/***/ }),
-
-/***/ "../../../../font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fontawesome-webfont.fee66e712a8a08eef580.woff";
-
-/***/ }),
-
-/***/ "../../../../style-loader/addStyles.js":
+/***/ "../../node_modules/style-loader/addStyles.js":
 /***/ (function(module, exports) {
 
 /*
@@ -525,7 +525,7 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__("../../../../bootstrap/dist/css/bootstrap.min.css");
@@ -535,5 +535,5 @@ module.exports = __webpack_require__("../../../../../src/styles.css");
 
 /***/ })
 
-},[0]);
+},[2]);
 //# sourceMappingURL=styles.bundle.js.map
