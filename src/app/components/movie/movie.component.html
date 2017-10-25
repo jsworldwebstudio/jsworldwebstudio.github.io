@@ -1,0 +1,40 @@
+<!--
+<p>
+  movie works!
+</p>
+<div *ngIf="movie">
+    <div class="card ml-3 mr-3 mb-3">
+      <img *ngIf="movie.poster_path" src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}" alt="Popular Movie #{{i+1}}" class="card-img-top">
+      <div class="card-body">
+        <h4 class="card-title">{{movie.title}}</h4>
+        <span class="card-text">
+          <h6>Release Date:</h6>
+          <h5>{{movie.release_date}}</h5>
+        </span>
+        <a routerLink="/movie/{{movie.id}}" class="btn btn-danger btn-block">View Details</a>
+      </div>
+    </div>
+</div>
+-->
+<section id="movie-detail-page">
+  <div class="container">
+    <div class="row">
+      <h2>{{movie?.title}}</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <!--<img src="http://image.tmdb.org/t/p/w500/{{movie.poster_path}}" alt="Movie Detail Image" class="img-fluid">-->
+        <img *ngIf="movie?.imdb_id" src="http://image.tmdb.org/t/p/w500/{{movie.poster_path}}" alt="Movie Detail Image" class="img-fluid">
+      </div>
+      <div class="col-md-7">
+        <ul class="list-group">
+          <li class="list-group-item">Genres: <span *ngFor="let genre of movie?.genres">{{genre.name}} </span></li>
+          <li class="list-group-item">Release Date: {{movie?.release_date}}</li>
+          <li class="list-group-item">Synopsis: {{movie?.overview}}</li>
+        </ul>
+        <br>
+        <a *ngIf="movie?.homepage" href="{{movie?.homepage}}" target="_blank" class="btn btn-danger">Visit Movie Website</a>
+      </div>
+    </div>
+  </div>
+</section>

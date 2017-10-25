@@ -1,0 +1,87 @@
+<div class="row">
+  <!--<h2>Find A Movie</h2>-->
+  <div class="col-md-12">
+    <h2>Find A Movie</h2>
+  </div>
+  <div class="col-md-12">
+    <p>Search for a movie using the form below</p>
+  </div>
+  <div class="col-md-12">
+    <form  novalidate class="form-inline" (ngSubmit)="searchMovies()" #f="ngForm">
+      <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchStr" name="searchStr">
+      <!--<a href="#" class="btn btn-danger"><i class="icon-search"></i></a>-->
+      <input type="submit" class="btn btn-danger" value="Find It">
+    </form>
+  </div>
+</div>
+<span *ngIf="searchRes">
+  <div class="row">
+    <h2>Search Results</h2>
+  </div>
+  <!--Dispplay Search Results-->
+  <div class="card-deck mb-3">
+    <div *ngFor="let movie of searchRes;let i=index">
+      <div *ngIf="i < 15">
+        <div class="card ml-3 mr-3 mb-3">
+          <img *ngIf="movie.poster_path" src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}" alt="Search Display Movie #{{i+1}}" class="card-img-top">
+          <!--<img src="http://lorempixel.com/300/300/sports/" alt="Movie 1" class="card-img-top">-->
+          <div class="card-body">
+            <h4 class="card-title">{{movie.title}}</h4>
+            <span class="card-text">
+              <h6>Release Date:</h6>
+              <h5>{{movie.release_date}}</h5>
+            </span>
+            <!--<h5 class="card-text">Release Date:<br>{{movie.release_date}}</h5>-->
+            <a routerLink="/movie/{{movie.id}}" class="btn btn-danger btn-block">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+<div class="row">
+  <h2>Popular Movies</h2>
+</div>
+<!--Dispplay Popular Movies-->
+<div class="card-deck mb-3">
+  <div *ngFor="let movie of popularList;let i=index">
+    <div *ngIf="i < 5">
+      <div class="card ml-3 mr-3 mb-3">
+        <img *ngIf="movie.poster_path" src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}" alt="Popular Movie #{{i+1}}" class="card-img-top">
+        <!--<img src="http://lorempixel.com/300/300/sports/" alt="Movie 1" class="card-img-top">-->
+        <div class="card-body">
+          <h4 class="card-title">{{movie.title}}</h4>
+          <span class="card-text">
+            <h6>Release Date:</h6>
+            <h5>{{movie.release_date}}</h5>
+          </span>
+          <!--<h5 class="card-text">Release Date:<br>{{movie.release_date}}</h5>-->
+          <a routerLink="/movie/{{movie.id}}" class="btn btn-danger btn-block">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Now Display Movie In Theaters-->
+<div class="row">
+  <h2>Latest Movies In Theaters</h2>
+</div>
+<div class="card-deck mb-3">
+  <div *ngFor="let movie of theatersList;let i=index">
+    <div *ngIf="i < 5">
+      <div class="card ml-3 mr-3 mb-3">
+        <img *ngIf="movie.poster_path" src="http://image.tmdb.org/t/p/w185/{{movie.poster_path}}" alt="Movies In Theater #{{i+1}}" class="card-img-top">
+        <!--<img src="http://lorempixel.com/300/300/sports/" alt="Movie 1" class="card-img-top">-->
+        <div class="card-body">
+          <h4 class="card-title">{{movie.title}}</h4>
+          <span class="card-text">
+            <h6>Release Date:</h6>
+            <h5>{{movie.release_date}}</h5>
+          </span>
+          <!--<h5 class="card-text">Release Date:<br>{{movie.release_date}}</h5>-->
+          <a routerLink="/movie/{{movie.id}}" class="btn btn-danger btn-block">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

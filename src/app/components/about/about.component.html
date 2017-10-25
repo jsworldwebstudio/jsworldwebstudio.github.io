@@ -1,0 +1,23 @@
+<section id="about-page">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-7 img-assets-pull-1">
+        <img src="../../../assets/images/img_desk_new.jpg" class="img-shadow img-responsive" alt="Conference Room Discussion">
+      </div>
+      <div class="col-md-5">
+        <h2>About</h2>
+        <p class="lead">Hi! Let me introduce myself. My name is James Slaughter and this is my website for JSWORLD Web Development Studio. I am a Designer and Developer Professional and Enthusiast with over 20 years experience in the Information Technology field and over 7 years specifically in the Mobile and Web development areas.</p>
+
+        <p>I’ve performed a number of roles during my 20+ year professional journey. Now I want to put that knowledge to work for you in helping you build your online presence. Whether that’s a logo, mobile application or website, we can work together to build the finished product you want to establish or enhance your presence in the digital world.</p>
+
+        <p>By closely collaborating through the early discovery and design phases of your project I can develop and deliver the following projects for you, your company or your startup business:</p>
+
+        <!--<ul class="list-nav" [@aboutAnim]="items.length"></ul>-->
+        <ul class="list-nav" [@aboutAnim]="items.length">
+          <li class="bounceAnim" *ngFor="let item of items"><i class="icon-check2"></i>{{item}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
